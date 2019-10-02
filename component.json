@@ -2,5 +2,21 @@
   "title": "openHandwerk Transformations",
   "description": "Data transformation component",
   "actions": {
+    "customerFromOih": {
+      "title": "Transform a customer from OIH",
+      "description": "Transform the incoming data from OIH",
+      "main": "./lib/actions/customerFromOih.js",
+      "metadata": {
+        "out": {}
+      }
+    },
+    "customerToOih": {
+      "title": "Transform a customer to OIH",
+      "description": "Transform the incoming data to OIH",
+      "main": "./lib/actions/customerToOih.js",
+      "metadata": {
+        "out": {}
+      }
+    }
   }
 }
